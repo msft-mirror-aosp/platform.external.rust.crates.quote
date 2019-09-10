@@ -1,0 +1,9 @@
+rust_library_rlib {
+    name: "libquote",
+    host_supported: true,
+    crate_name: "quote",
+    srcs: ["src/lib.rs"],
+    rlibs: ["libproc_macro2"],
+    features: ["proc-macro"],
+    edition: "2015",
+}
