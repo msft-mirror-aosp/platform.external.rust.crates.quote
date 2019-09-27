@@ -1,5 +1,6 @@
 rust_library_rlib {
     name: "libquote",
+    deny_warnings: false,
     host_supported: true,
     crate_name: "quote",
     srcs: ["src/lib.rs"],
