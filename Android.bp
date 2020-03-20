@@ -13,3 +13,7 @@ rust_library_host_rlib {
         "libproc_macro2",
     ],
 }
+
+// dependent_library ["feature_list"]
+//   proc-macro2-1.0.9 "default,proc-macro"
+//   unicode-xid-0.2.0 "default"
