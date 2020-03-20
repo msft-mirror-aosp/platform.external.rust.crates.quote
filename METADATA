@@ -1,0 +1,18 @@
+name: "quote"
+description: "This crate provides the quote! macro for turning Rust syntax tree data structures into tokens of source code."
+third_party {
+  url {
+    type: HOMEPAGE
+    value: "https://crates.io/crates/quote"
+  }
+  url {
+    type: GIT
+    value: "https://github.com/dtolnay/quote"
+  }
+  version: "1.0.3"
+  last_upgrade_date {
+    year: 2020
+    month: 3
+    day: 20
+  }
+}
