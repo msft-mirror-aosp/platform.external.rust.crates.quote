@@ -12,6 +12,7 @@ rust_library_host_rlib {
     rlibs: [
         "libproc_macro2",
     ],
+    compile_multilib: "first", // added
 }
 
 // dependent_library ["feature_list"]
