@@ -1,6 +1,6 @@
 [package]
 name = "quote"
-version = "1.0.3" # don't forget to update html_root_url, version in readme for breaking changes
+version = "1.0.4" # don't forget to update html_root_url, version in readme for breaking changes
 authors = ["David Tolnay <dtolnay@gmail.com>"]
 license = "MIT OR Apache-2.0"
 description = "Quasi-quoting macro quote!(...)"
@@ -27,3 +27,6 @@ proc-macro = ["proc-macro2/proc-macro"]
 
 [badges]
 travis-ci = { repository = "dtolnay/quote" }
+
+[package.metadata.docs.rs]
+targets = ["x86_64-unknown-linux-gnu"]
