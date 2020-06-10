@@ -9,10 +9,11 @@ third_party {
     type: GIT
     value: "https://github.com/dtolnay/quote"
   }
-  version: "1.0.3"
+  version: "1.0.6"
+  license_type: NOTICE
   last_upgrade_date {
     year: 2020
-    month: 3
-    day: 20
+    month: 5
+    day: 18
   }
 }
