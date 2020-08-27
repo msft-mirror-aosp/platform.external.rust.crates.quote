@@ -6,8 +6,8 @@ third_party {
     value: "https://crates.io/crates/quote"
   }
   url {
-    type: GIT
-    value: "https://github.com/dtolnay/quote"
+    type: ARCHIVE
+    value: "https://static.crates.io/crates/quote/quote-1.0.7.crate"
   }
   version: "1.0.7"
   license_type: NOTICE
