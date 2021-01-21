@@ -16,5 +16,5 @@ rust_library_host {
 }
 
 // dependent_library ["feature_list"]
-//   proc-macro2-1.0.18 "default,proc-macro"
+//   proc-macro2-1.0.24 "default,proc-macro"
 //   unicode-xid-0.2.1 "default"
