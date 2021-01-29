@@ -1,5 +1,5 @@
 name: "quote"
-description: "This crate provides the quote! macro for turning Rust syntax tree data structures into tokens of source code."
+description: "Quasi-quoting macro quote!(...)"
 third_party {
   url {
     type: HOMEPAGE
@@ -7,13 +7,13 @@ third_party {
   }
   url {
     type: ARCHIVE
-    value: "https://static.crates.io/crates/quote/quote-1.0.7.crate"
+    value: "https://static.crates.io/crates/quote/quote-1.0.8.crate"
   }
-  version: "1.0.7"
+  version: "1.0.8"
   license_type: NOTICE
   last_upgrade_date {
     year: 2020
-    month: 7
-    day: 10
+    month: 12
+    day: 22
   }
 }
