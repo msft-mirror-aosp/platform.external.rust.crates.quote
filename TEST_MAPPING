@@ -2,34 +2,7 @@
 {
   "presubmit": [
     {
-      "name": "url_device_test_src_lib"
-    },
-    {
-      "name": "anyhow_device_test_tests_test_downcast"
-    },
-    {
-      "name": "anyhow_device_test_tests_test_repr"
-    },
-    {
-      "name": "keystore2_selinux_test"
-    },
-    {
-      "name": "anyhow_device_test_tests_test_fmt"
-    },
-    {
-      "name": "libm_device_test_src_lib"
-    },
-    {
-      "name": "anyhow_device_test_tests_test_convert"
-    },
-    {
-      "name": "libsqlite3-sys_device_test_src_lib"
-    },
-    {
-      "name": "anyhow_device_test_tests_test_source"
-    },
-    {
-      "name": "unicode-bidi_device_test_src_lib"
+      "name": "ZipFuseTest"
     },
     {
       "name": "anyhow_device_test_src_lib"
@@ -38,31 +11,415 @@
       "name": "anyhow_device_test_tests_test_autotrait"
     },
     {
-      "name": "anyhow_device_test_tests_test_context"
-    },
-    {
-      "name": "anyhow_device_test_tests_test_macros"
+      "name": "anyhow_device_test_tests_test_boxed"
     },
     {
       "name": "anyhow_device_test_tests_test_chain"
     },
     {
+      "name": "anyhow_device_test_tests_test_context"
+    },
+    {
+      "name": "anyhow_device_test_tests_test_convert"
+    },
+    {
+      "name": "anyhow_device_test_tests_test_downcast"
+    },
+    {
       "name": "anyhow_device_test_tests_test_ffi"
     },
     {
-      "name": "serde_test_device_test_src_lib"
+      "name": "anyhow_device_test_tests_test_fmt"
+    },
+    {
+      "name": "anyhow_device_test_tests_test_macros"
+    },
+    {
+      "name": "anyhow_device_test_tests_test_repr"
+    },
+    {
+      "name": "anyhow_device_test_tests_test_source"
+    },
+    {
+      "name": "apkdmverity.test"
+    },
+    {
+      "name": "authfs_device_test_src_lib"
+    },
+    {
+      "name": "base64_device_test_tests_decode"
+    },
+    {
+      "name": "base64_device_test_tests_encode"
+    },
+    {
+      "name": "base64_device_test_tests_helpers"
+    },
+    {
+      "name": "doh_unit_test"
+    },
+    {
+      "name": "either_device_test_src_lib"
     },
     {
       "name": "futures-util_device_test_src_lib"
     },
     {
-      "name": "keystore2_test"
+      "name": "jni_device_test_src_lib"
     },
     {
-      "name": "anyhow_device_test_tests_test_boxed"
+      "name": "jni_device_test_tests_executor"
+    },
+    {
+      "name": "jni_device_test_tests_executor_nested_attach"
+    },
+    {
+      "name": "jni_device_test_tests_java_integers"
+    },
+    {
+      "name": "jni_device_test_tests_jmap"
+    },
+    {
+      "name": "jni_device_test_tests_jni_api"
+    },
+    {
+      "name": "jni_device_test_tests_jni_global_refs"
+    },
+    {
+      "name": "jni_device_test_tests_threads_attach_guard"
+    },
+    {
+      "name": "jni_device_test_tests_threads_detach"
+    },
+    {
+      "name": "jni_device_test_tests_threads_detach_daemon"
+    },
+    {
+      "name": "jni_device_test_tests_threads_explicit_detach"
+    },
+    {
+      "name": "jni_device_test_tests_threads_explicit_detach_daemon"
+    },
+    {
+      "name": "jni_device_test_tests_threads_explicit_detach_permanent"
+    },
+    {
+      "name": "jni_device_test_tests_threads_nested_attach_daemon"
+    },
+    {
+      "name": "jni_device_test_tests_threads_nested_attach_guard"
+    },
+    {
+      "name": "jni_device_test_tests_threads_nested_attach_permanently"
     },
     {
       "name": "keystore2_crypto_test_rust"
+    },
+    {
+      "name": "keystore2_selinux_concurrency_test"
+    },
+    {
+      "name": "keystore2_selinux_test"
+    },
+    {
+      "name": "keystore2_test"
+    },
+    {
+      "name": "legacykeystore_test"
+    },
+    {
+      "name": "libapkverify.integration_test"
+    },
+    {
+      "name": "libapkverify.test"
+    },
+    {
+      "name": "libidsig.test"
+    },
+    {
+      "name": "libm_device_test_src_lib"
+    },
+    {
+      "name": "libsqlite3-sys_device_test_src_lib"
+    },
+    {
+      "name": "microdroid_manager_test"
+    },
+    {
+      "name": "oid-registry_device_test_src_lib"
+    },
+    {
+      "name": "serde-xml-rs_device_test_src_lib"
+    },
+    {
+      "name": "serde-xml-rs_device_test_tests_round_trip"
+    },
+    {
+      "name": "serde_cbor_device_test_src_lib"
+    },
+    {
+      "name": "serde_cbor_device_test_tests_bennofs"
+    },
+    {
+      "name": "serde_cbor_device_test_tests_canonical"
+    },
+    {
+      "name": "serde_cbor_device_test_tests_de"
+    },
+    {
+      "name": "serde_cbor_device_test_tests_enum"
+    },
+    {
+      "name": "serde_cbor_device_test_tests_ser"
+    },
+    {
+      "name": "serde_cbor_device_test_tests_std_types"
+    },
+    {
+      "name": "serde_cbor_device_test_tests_tags"
+    },
+    {
+      "name": "serde_cbor_device_test_tests_value"
+    },
+    {
+      "name": "serde_test_device_test_src_lib"
+    },
+    {
+      "name": "slab_device_test_src_lib"
+    },
+    {
+      "name": "slab_device_test_tests_serde"
+    },
+    {
+      "name": "slab_device_test_tests_slab"
+    },
+    {
+      "name": "tokio-test_device_test_src_lib"
+    },
+    {
+      "name": "tokio-test_device_test_tests_block_on"
+    },
+    {
+      "name": "tokio-test_device_test_tests_io"
+    },
+    {
+      "name": "tokio-test_device_test_tests_macros"
+    },
+    {
+      "name": "tokio_device_test_tests__require_full"
+    },
+    {
+      "name": "tokio_device_test_tests_buffered"
+    },
+    {
+      "name": "tokio_device_test_tests_io_async_fd"
+    },
+    {
+      "name": "tokio_device_test_tests_io_async_read"
+    },
+    {
+      "name": "tokio_device_test_tests_io_chain"
+    },
+    {
+      "name": "tokio_device_test_tests_io_copy"
+    },
+    {
+      "name": "tokio_device_test_tests_io_copy_bidirectional"
+    },
+    {
+      "name": "tokio_device_test_tests_io_driver"
+    },
+    {
+      "name": "tokio_device_test_tests_io_driver_drop"
+    },
+    {
+      "name": "tokio_device_test_tests_io_lines"
+    },
+    {
+      "name": "tokio_device_test_tests_io_mem_stream"
+    },
+    {
+      "name": "tokio_device_test_tests_io_read"
+    },
+    {
+      "name": "tokio_device_test_tests_io_read_buf"
+    },
+    {
+      "name": "tokio_device_test_tests_io_read_exact"
+    },
+    {
+      "name": "tokio_device_test_tests_io_read_line"
+    },
+    {
+      "name": "tokio_device_test_tests_io_read_to_end"
+    },
+    {
+      "name": "tokio_device_test_tests_io_read_to_string"
+    },
+    {
+      "name": "tokio_device_test_tests_io_read_until"
+    },
+    {
+      "name": "tokio_device_test_tests_io_split"
+    },
+    {
+      "name": "tokio_device_test_tests_io_take"
+    },
+    {
+      "name": "tokio_device_test_tests_io_write"
+    },
+    {
+      "name": "tokio_device_test_tests_io_write_all"
+    },
+    {
+      "name": "tokio_device_test_tests_io_write_buf"
+    },
+    {
+      "name": "tokio_device_test_tests_io_write_int"
+    },
+    {
+      "name": "tokio_device_test_tests_macros_join"
+    },
+    {
+      "name": "tokio_device_test_tests_macros_pin"
+    },
+    {
+      "name": "tokio_device_test_tests_macros_select"
+    },
+    {
+      "name": "tokio_device_test_tests_macros_test"
+    },
+    {
+      "name": "tokio_device_test_tests_macros_try_join"
+    },
+    {
+      "name": "tokio_device_test_tests_net_bind_resource"
+    },
+    {
+      "name": "tokio_device_test_tests_net_lookup_host"
+    },
+    {
+      "name": "tokio_device_test_tests_no_rt"
+    },
+    {
+      "name": "tokio_device_test_tests_process_kill_on_drop"
+    },
+    {
+      "name": "tokio_device_test_tests_rt_basic"
+    },
+    {
+      "name": "tokio_device_test_tests_rt_common"
+    },
+    {
+      "name": "tokio_device_test_tests_rt_threaded"
+    },
+    {
+      "name": "tokio_device_test_tests_sync_barrier"
+    },
+    {
+      "name": "tokio_device_test_tests_sync_broadcast"
+    },
+    {
+      "name": "tokio_device_test_tests_sync_errors"
+    },
+    {
+      "name": "tokio_device_test_tests_sync_mpsc"
+    },
+    {
+      "name": "tokio_device_test_tests_sync_mutex"
+    },
+    {
+      "name": "tokio_device_test_tests_sync_mutex_owned"
+    },
+    {
+      "name": "tokio_device_test_tests_sync_notify"
+    },
+    {
+      "name": "tokio_device_test_tests_sync_oneshot"
+    },
+    {
+      "name": "tokio_device_test_tests_sync_rwlock"
+    },
+    {
+      "name": "tokio_device_test_tests_sync_semaphore"
+    },
+    {
+      "name": "tokio_device_test_tests_sync_semaphore_owned"
+    },
+    {
+      "name": "tokio_device_test_tests_sync_watch"
+    },
+    {
+      "name": "tokio_device_test_tests_task_abort"
+    },
+    {
+      "name": "tokio_device_test_tests_task_blocking"
+    },
+    {
+      "name": "tokio_device_test_tests_task_local"
+    },
+    {
+      "name": "tokio_device_test_tests_task_local_set"
+    },
+    {
+      "name": "tokio_device_test_tests_tcp_accept"
+    },
+    {
+      "name": "tokio_device_test_tests_tcp_connect"
+    },
+    {
+      "name": "tokio_device_test_tests_tcp_echo"
+    },
+    {
+      "name": "tokio_device_test_tests_tcp_into_split"
+    },
+    {
+      "name": "tokio_device_test_tests_tcp_into_std"
+    },
+    {
+      "name": "tokio_device_test_tests_tcp_peek"
+    },
+    {
+      "name": "tokio_device_test_tests_tcp_shutdown"
+    },
+    {
+      "name": "tokio_device_test_tests_tcp_socket"
+    },
+    {
+      "name": "tokio_device_test_tests_tcp_split"
+    },
+    {
+      "name": "tokio_device_test_tests_time_rt"
+    },
+    {
+      "name": "tokio_device_test_tests_udp"
+    },
+    {
+      "name": "tokio_device_test_tests_uds_cred"
+    },
+    {
+      "name": "tokio_device_test_tests_uds_split"
+    },
+    {
+      "name": "unicode-bidi_device_test_src_lib"
+    },
+    {
+      "name": "unicode-xid_device_test_src_lib"
+    },
+    {
+      "name": "unicode-xid_device_test_tests_exhaustive_tests"
+    },
+    {
+      "name": "url_device_test_src_lib"
+    },
+    {
+      "name": "url_device_test_tests_data"
+    },
+    {
+      "name": "url_device_test_tests_unit"
+    },
+    {
+      "name": "virtualizationservice_device_test"
     }
   ]
 }
