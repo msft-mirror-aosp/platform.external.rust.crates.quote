@@ -125,6 +125,12 @@
       "name": "keystore2_test"
     },
     {
+      "name": "keystore2_test_utils_test"
+    },
+    {
+      "name": "keystore2_vintf_test"
+    },
+    {
       "name": "legacykeystore_test"
     },
     {
@@ -153,9 +159,6 @@
     },
     {
       "name": "serde-xml-rs_device_test_src_lib"
-    },
-    {
-      "name": "serde-xml-rs_device_test_tests_round_trip"
     },
     {
       "name": "serde_cbor_device_test_src_lib"
