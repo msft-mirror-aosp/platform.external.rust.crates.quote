@@ -11,13 +11,13 @@ third_party {
   }
   url {
     type: ARCHIVE
-    value: "https://static.crates.io/crates/quote/quote-1.0.21.crate"
+    value: "https://static.crates.io/crates/quote/quote-1.0.23.crate"
   }
-  version: "1.0.21"
+  version: "1.0.23"
   license_type: NOTICE
   last_upgrade_date {
-    year: 2022
-    month: 12
-    day: 13
+    year: 2023
+    month: 2
+    day: 6
   }
 }
