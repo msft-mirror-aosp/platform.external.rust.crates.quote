@@ -14,7 +14,7 @@ error[E0599]: the method `quote_into_iter` exists for struct `Ipv4Addr`, but its
           which is required by `&Ipv4Addr: quote::__private::ext::RepIteratorExt`
           `Ipv4Addr: ToTokens`
           which is required by `Ipv4Addr: quote::__private::ext::RepToTokensExt`
-          `&mut Ipv4Addr: Iterator`
+          `Ipv4Addr: Iterator`
           which is required by `&mut Ipv4Addr: quote::__private::ext::RepIteratorExt`
 note: the traits `Iterator` and `ToTokens` must be implemented
  --> $RUST/core/src/iter/traits/iterator.rs
